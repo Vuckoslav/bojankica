@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bojice.css">
+	<script src="manip.js"></script>
+</head>
+    <body>
+	    <div id='colors'>
+	        <button id='black' onclick='changeColor("black")' ontouchstart='changeColor("black")'></button>
+		    <button id='red' onclick='changeColor("red")' ontouchstart='changeColor("red")'></button>
+		    <button id='green' onclick='changeColor("green")' ontouchstart='changeColor("green")'></button>
+		    <button id='blue' onclick='changeColor("blue")' ontouchstart='changeColor("blue")'></button>
+		    <button id='orange' onclick='changeColor("orange")' ontouchstart='changeColor("orange")'></button>
+		    <button id='pink' onclick='changeColor("pink")' ontouchstart='changeColor("pink")'></button>
+		     <button id='yellow' onclick='changeColor("yellow")' ontouchstart='changeColor("yellow")'></button>
+		    <button id='white' onclick='changeColor("white")' ontouchstart='changeColor("white")'></button>
+		    <button id='cyan' onclick='changeColor("cyan")'ontouchstart='changeColor("cyan")' ></button>
+		    <button id='violet' onclick='changeColor("#cc0099")' ontouchstart='changeColor("#cc0099")' ></button>
+		    <button id='krestavilo' onclick='changeColor("#00ff00")' ontouchstart='changeColor("#00ff00")' ></button>
+		    <button id='cigla' onclick='changeColor("#cc3300")' ontouchstart='changeColor("#cc3300")' ></button>
+	    </div>
+	    <div id="mycan" style="position: relative;">
+	    <canvas id='canvas' width='800' height='500'></canvas>
+	    </div>
+	    <div id="slike" style="position:absolute; right: 0;top: 0;">
+	    <img src="kremenko9.gif" alt="no picture" id="kremen"
+	    style="width:150px;height:150px;"
+	     onclick='changeImage("kremen")' 
+	     ontouchstart='changeImage("kremen")'/>
+	     <img src='klovnica.jpg' alt="no picture" id="gusar"
+	     style="width: 150px;height:150px;"
+	     onclick='changePicture("gusar")'
+	     ontouchstart='changePicture("gusar")'/>
+	     <img src='klizaci.jpg' alt="no picture" id="klizaci"
+	     style="width:150px;height:150px;"
+	     onclick='changePlay("klizaci")'
+	     ontouchstart='changePlay("klizaci")'/>
+	     </div>
+	     <div id="slike2" 
+	     style="position: absolute;right: 0;top: 150px;
+	     margin:auto;">
+	     <img src='pahuljica.jpg' alt="no picture" id="pahuljica"
+	     style="width:150px;height:150px;"
+	     onclick='changeSnow("pahuljica")'
+	     ontouchstart='changeSnow("pahuljica")'/>
+	     <img src='jelka.jpg' alt="no picture" id="zvezdica"
+	     style="width: 150px;height: 150px;"
+	     onclick='changeStar("zvezdica")'
+	     ontouchstart='changeStar("zvezdica")'/>
+	     <img src='srculence.jpg' alt="no picture" id="srce" 
+	     style="width: 150px;height: 150px; "
+	     onclick='changeHeart("srce")'
+	     ontouchstart='changeHeart("srce")'/>
+	     </div>
+	     <div id="slike3"
+	     style="position: absolute;right: 0;top: 300px;">
+	     <img src='dexter.jpg' alt="no picture" id="dexter"
+	     style="width: 150px;height: 150px;"
+	     onclick='changeDexter("dexter")'
+	     ontouchstart='changeDexter("dexter")'/>
+	     <img src='miki.jpg' alt="no picture" id="miki"
+	     style="width: 150px;height: 150px;"
+	     onclick='changeMikey("miki")'
+	     ontouchstart='changeMikey("miki")'/>
+	     <img src='riba.gif' alt="no picture" id="riba"
+	     style="width: 150px;height: 150px;"
+	     onclick='changeFish("riba")'
+	     ontouchstart='changeFish("riba")'/>
+	     </div>
+	     <div id="slike4"
+	     style="position: absolute;right: 0;top: 450px;">
+	     <img src='ribolovac.jpg' alt="no picture" id="pecaros"
+	     style="width: 150px;height: 150px;"
+	     onclick='changeRiba("pecaros")'
+	     ontouchstart='changeRiba("pecaros")'/>
+	     <img src='buva.jpg' alt="no picture" id="buva"
+	     style="width: 150px;height: 150px;"
+	     onclick='changeBuva("buva")'
+	     ontouchstart='changeBuva("buva")'>
+	     <img src='zaba.jpg' alt="no picture" id="zaba"
+	      style="width: 150px;height: 150px;"
+	      onclick='changeFrog("zaba")' 
+	      ontouchstart='changeFrog("zaba")' />
+	     
+	   
+	     	
+	     </div>
+
+	     
+
+
+
+	    <div id="iza" style="position: absolute;">
+	        <button id="clear" class="pozadina" onclick='clearCanvas()'>Obrisi</button>
+	        <button id="nebo" class="pozadina" 
+	        onclick='changeCanvas("blue")' ontouchstart=' changeCanvas("blue") '>Plavo </button>
+	        <button id="trava" class="pozadina" 
+	        onclick='changeCanvas("green")' 
+	        ontouchstart='changeCanvas("green")'>Zeleno</button>
+	        <button id="crnilo" class="pozadina"   
+	        onclick='changeCanvas("black")' 
+	        ontouchstart='changeCanvas("black")' >Crno</button>
+	        <button id="zutilo" class="pozadina" 
+	        onclick='changeCanvas("yellow")'   
+	        ontouchstart='changeCanvas("yellow")' >Zuto</button>
+	        <button id="pakao" class="pozadina" 
+	        onclick='changeCanvas("orange")'  
+	        ontouchstart='changeCanvas("orange")'>Orange</button>
+	    </div>
+    </body >
+</html>
