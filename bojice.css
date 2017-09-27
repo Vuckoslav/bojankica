@@ -1,0 +1,141 @@
+
+#canvas
+{
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+#colors button
+{
+    width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	margin-top: 0px;
+    
+}
+#black 
+{
+    background: black;
+}
+#pink 
+{
+    background: pink;
+}
+#red
+{
+    background: red;
+}
+#green 
+{ 
+    background: green;
+}
+#blue 
+{
+    background: blue;
+}
+#orange 
+{
+    background: orange;
+}
+#yellow
+{
+    background: yellow;
+}
+#white
+{
+    background: white;
+}
+#cyan
+{
+    background: cyan;
+}
+#violet
+{
+    background: #cc0099;
+}
+#krestavilo
+{
+background: #00ff00;
+}
+#cigla
+{
+background:   #cc3300;
+}
+
+
+                                                                                      
+
+
+
+button.pozadina { font-size: 20px;
+                  display: inline-block;
+                  padding: 14px 40px;
+                  border-radius: 10px;
+                  cursor: pointer;
+
+}
+button#clear:hover {
+    border:2px solid white;
+    color: white;
+
+}
+button#nebo {
+    border: 2px solid blue;
+    color: blue
+}
+button#nebo:hover {
+    background-color: blue;
+    color:white;
+}
+button#trava {
+    border:2px solid green;
+    color: green;
+}
+button#trava:hover {
+    background-color: green;
+    color: white;
+
+}
+button#crnilo {
+    border: 2px solid black;
+    color: black;
+}
+button#crnilo:hover {
+    background-color: black;
+    color:white;
+}
+button#zutilo {
+    border: 2px solid yellow;
+    color: yellow;
+}
+button#zutilo:hover {
+    background-color: yellow;
+    color: white;
+}
+button#pakao {
+    border: 2px solid orange;
+    color: orange;
+}
+button#pakao:hover {
+    background-color: orange;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
